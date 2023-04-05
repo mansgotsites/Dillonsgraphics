@@ -169,23 +169,14 @@
 	<section class="contact" id="contact">
 		<h2 class="heading">Contact Me<span> Today!</span></h2>
 
-		<form action="https://formsubmit.co/770cb61cba14b41729c5e63ba75a9f93" method="POST">
-			<!-- honeypot -->
-			<input type="text" name="_honey" style="display: none;">
-
-			<!-- Disable Captcha -->
-			<input type="hidden" name="_captcha" value="false">
-
+		<form action="https://formsubmit.co/dillonsgraphics@gmail.com" method="POST">
 			<div class="input-box">
-				<input type="text" name="name" placeholder="Name" required>
-				<input type="email" name="email" placeholder="Email Address" required>
+				<input type="text" placeholder="Name" minlength="3" required>
+				<input type="email" id="email" placeholder="Email Address" required>
 			</div>
-			<div class="input-box">
-				<input type="number" name="Phone" placeholder="+1 (415) 867-5309">
-				<input type="text" name="subject" placeholder="Email Subject">
-			</div>
-			<textarea name="" id="" cols="30" rows="10"></textarea>
-			<input type="submit" value="Send Message" class="btn">
+
+			<textarea name="" id="" cols="30" rows="10" placeholder="&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Project Description" required ></textarea>
+			<input type="submit" value="Send" class="btn">
 		</form>
 	</section>
 	<!-- footer design -->
@@ -206,5 +197,10 @@
 
 	<!-- custom js -->
 	<script src="script.js"></script>
+
+	<!-- Contact submit form js -->
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	
+	
 </body>
 </html>
